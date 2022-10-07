@@ -1,0 +1,38 @@
+{
+  "name": "vue-ts-vite-cli",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "lint": "eslint --fix --ext=ts,tsx,js,vue,html .",
+    "prepare": "husky install"
+  },
+  "dependencies": {
+    "@unocss/reset": "^0.45.26",
+    "vue": "^3.2.37",
+    "vue-router": "^4.1.5"
+  },
+  "devDependencies": {
+    "@commitlint/config-conventional": "^17.1.0",
+    "@types/node": "^18.8.0",
+    "@typescript-eslint/eslint-plugin": "^5.38.1",
+    "@typescript-eslint/parser": "^5.38.1",
+    "@unocss/transformer-directives": "^0.45.26",
+    "@vitejs/plugin-vue": "^3.1.0",
+    "@vue/runtime-core": "^3.2.40",
+    "commitlint": "^17.1.2",
+    "eslint": "^8.24.0",
+    "eslint-plugin-vue": "^9.5.1",
+    "husky": "^8.0.1",
+    "lint-staged": "^13.0.3",
+    "typescript": "^4.6.4",
+    "unocss": "^0.45.26",
+    "unplugin-auto-import": "^0.11.2",
+    "unplugin-vue-components": "^0.22.8",
+    "vite": "^3.1.0",
+    "vite-plugin-pages": "^0.26.0",
+    "vue-tsc": "^0.40.4"
+  }
+}
